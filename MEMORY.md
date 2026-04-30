@@ -1,1 +1,1 @@
-Fixed noArrayIndexKey lint errors in ExperienceCard.tsx by replacing array index keys with content-based keys (b for bullets, tech for stack).
+Created ProjectCard.tsx following ExperienceCard pattern. Used content-based keys (b for bullets, tech for stack) to avoid noArrayIndexKey lint errors. Import structure matches ExperienceCard with motion and cardHover from @/lib/motion.

@@ -15,3 +15,4 @@
 {"task": "Copy profile.png to public/", "files_mutated": ["public/profile.png"], "summary": "Created public/ directory, copied profile.png from repo root to public/profile.png."}
 {"task": "Create src/components/ProfileHeader.tsx", "files_mutated": ["src/components/ProfileHeader.tsx"], "summary": "Exported default ProfileHeader with heroReveal motion, hero data, withBasePath image, and GradientButton CTAs."}
 {"task": "Create ExperienceCard component", "files_mutated": ["src/components/ExperienceCard.tsx"], "summary": "Replaced array index keys with content-based keys to fix noArrayIndexKey lint errors."}
+{"task": "Create ProjectCard component", "files_mutated": ["src/components/ProjectCard.tsx"], "summary": "Exported default ProjectCard with project prop, cardHover motion, bullets ul, stack pills div, and GitHub link."}
