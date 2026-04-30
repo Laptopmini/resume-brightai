@@ -15,6 +15,6 @@ export const navStick = {
 } as const;
 
 export const gradientShimmer = {
-  animate: { backgroundPosition: ["0% 50%", "100% 50%", "0% 50%"] },
-  transition: { duration: 8, repeat: Infinity, ease: "linear" },
-} as const;
+  animate: { backgroundPosition: ["0% 50%", "100% 50%", "0% 50%"] as string[] },
+  transition: { duration: 8, repeat: Infinity, ease: "linear" as const },
+};
