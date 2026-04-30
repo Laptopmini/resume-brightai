@@ -1,1 +1,1 @@
-Installed React 19, framer-motion 12, and all dev dependencies (vite, tailwindcss v3.4, testing libraries). Added dev/build/preview scripts to package.json. Used npm install once for runtime deps and once for dev deps per the task spec.
+Fixed by excluding vite.config.ts from the main tsconfig.json include. The file is now only checked via tsconfig.node.json which uses "bundler" moduleResolution (compatible with Vite's ESM exports). Previously both configs overlapped, causing NodeNext resolution to fail finding defineConfig.
