@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --midnight: #0a0e2c;
+  --midnight-deep: #050720;
+  --midnight-card: #11154a;
+  --paper: #f4f5fb;
+  --paper-muted: #a4abd1;
+  --ink: #10112d;
+  --cyan-blue: #0693e3;
+  --vivid-purple: #9b51e0;
+  --electric-from: #2874fc;
+  --electric-to: #020381;
+  --gradient-midnight: linear-gradient(135deg, #020381 0%, #2874fc 100%);
+  --gradient-accent: linear-gradient(135deg, #0693e3 0%, #9b51e0 100%);
+  --gradient-spectrum: linear-gradient(
+    135deg,
+    #4aeadc 0%,
+    #9778d1 20%,
+    #cf2aba 40%,
+    #ee2c82 60%,
+    #fb6962 80%,
+    #fef84c 100%
+  );
+}
+
+body {
+  background-color: var(--midnight);
+  color: var(--paper);
+  font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
+
+html {
+  scroll-behavior: smooth;
+}
