@@ -1,1 +1,1 @@
-Fixed noArrayIndexKey lint error in EducationList.tsx by using `entry.title` as key instead of array index `i`.
+Implemented AICreditSection.tsx with gradientShimmer motion on the accent bar, aiCredit content from resume, ordered workflow steps with padded numbers, and GradientButton CTA linking to the ralph-node repo. All imports resolved correctly.
