@@ -19,7 +19,7 @@ const config = {
     "\\.css$": "identity-obj-proxy",
     "^@/(.*)$": "<rootDir>/src/$1",
   },
-  setupFilesAfterEach: ["@testing-library/jest-dom"],
+  setupFilesAfterEnv: ["@testing-library/jest-dom"],
   testMatch: ["<rootDir>/tests/unit/**/*.test.{ts,tsx}"],
   roots: ["<rootDir>/tests"],
 };
