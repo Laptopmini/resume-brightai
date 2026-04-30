@@ -26,3 +26,4 @@
 {"task": "Create .github/workflows/deploy.yml", "files_mutated": [".github/workflows/deploy.yml"], "summary": "Created deploy workflow with build and deploy jobs, correct triggers, permissions, concurrency, and all specified action versions."}
 {"task": "Create index.html at repo root", "files_mutated": ["index.html"], "summary": "Created index.html with all required meta tags, Google Fonts links, favicon, root div, and module script entry."}
 {"task": "Create src/main.tsx", "files_mutated": [], "summary": "File already existed with correct implementation matching test requirements."}
+{"task": "Create src/App.tsx", "files_mutated": ["src/App.tsx"], "summary": "Replaced array index keys with content-based keys (company for experience, name for projects) to satisfy noArrayIndexKey lint rule."}

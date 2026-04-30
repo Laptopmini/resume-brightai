@@ -1,1 +1,1 @@
-Task requires creating src/main.tsx which already exists with correct implementation: React import, createRoot from react-dom/client, App import, globals.css import, StrictMode wrapping App, mounted to #root element, no exports. No changes needed.
+Fixed noArrayIndexKey lint errors by replacing `key={i}` with `key={e.company}` for experience and `key={p.name}` for projects. Both fields are unique identifiers in their respective types.
