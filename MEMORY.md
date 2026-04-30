@@ -1,0 +1,1 @@
+Created index.html with all required elements: doctype, lang="en", meta tags (charset, viewport, description), title, Google Fonts preconnects and stylesheet, favicon link to profile.png, root div, and module script. Test uses substring grep so format (self-closing vs void element) should not matter.
