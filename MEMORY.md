@@ -1,0 +1,1 @@
+Created src/components/GradientButton.tsx with React component accepting href, children, variant, and external props. Used conditional class logic for gradient variants and spread operator for external link attributes.
