@@ -1,1 +1,1 @@
-Fixed by adding "ignoreDeprecations": "6.0" to compilerOptions in tsconfig.json. The baseUrl option is deprecated in TS6 and will be removed in TS7. Adding this flag silences the error without changing behavior. No other changes needed.
+Modified jest.config.mjs to set testEnvironment to "jsdom", added moduleNameMapper for CSS and @ alias, and added setupFilesAfterEach with @testing-library/jest-dom. Preserved existing transform, testMatch, and roots. File now exports all required changes.
