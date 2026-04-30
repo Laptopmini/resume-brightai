@@ -17,3 +17,4 @@
 {"task": "Create ExperienceCard component", "files_mutated": ["src/components/ExperienceCard.tsx"], "summary": "Replaced array index keys with content-based keys to fix noArrayIndexKey lint errors."}
 {"task": "Create ProjectCard component", "files_mutated": ["src/components/ProjectCard.tsx"], "summary": "Exported default ProjectCard with project prop, cardHover motion, bullets ul, stack pills div, and GitHub link."}
 {"task": "Create SkillsGrid component", "files_mutated": ["src/components/SkillsGrid.tsx"], "summary": "Exported default SkillsGrid with skills map, category cards, and item pills."}
+{"task": "Create EducationList component", "files_mutated": ["src/components/EducationList.tsx"], "summary": "Replaced array index key with content-based key entry.title to fix noArrayIndexKey lint error."}

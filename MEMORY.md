@@ -1,1 +1,1 @@
-Created SkillsGrid.tsx with section containing header "Top Skills" and a grid mapping skills categories to cards with items as pills. Used content-based keys (cat.category, item) to avoid noArrayIndexKey lint errors. Structure matches the spec exactly.
+Fixed noArrayIndexKey lint error in EducationList.tsx by using `entry.title` as key instead of array index `i`.
