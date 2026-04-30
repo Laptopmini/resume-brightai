@@ -14,7 +14,12 @@ const config = {
       },
     ],
   },
-  testEnvironment: "node",
+  testEnvironment: "jsdom",
+  moduleNameMapper: {
+    "\\.css$": "identity-obj-proxy",
+    "^@/(.*)$": "<rootDir>/src/$1",
+  },
+  setupFilesAfterEnv: ["@testing-library/jest-dom"],
   testMatch: ["<rootDir>/tests/unit/**/*.test.{ts,tsx}"],
   roots: ["<rootDir>/tests"],
 };
