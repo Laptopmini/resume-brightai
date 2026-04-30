@@ -7,3 +7,4 @@
 {"task": "Update tsconfig.json with required compiler options", "files_mutated": ["tsconfig.json"], "summary": "Added ignoreDeprecations: 6.0 to silence baseUrl deprecation warning."}
 {"task": "Configure Jest with jsdom environment", "files_mutated": ["jest.config.mjs"], "summary": "Set testEnvironment to jsdom, added moduleNameMapper for CSS and @ path alias, added setupFilesAfterEach with @testing-library/jest-dom."}
 {"task": "Configure Tailwind and PostCSS", "files_mutated": ["tailwind.config.ts", "postcss.config.js"], "summary": "Created tailwind.config.ts with theme extend and postcss.config.js with plugins."}
+{"task": "Create src/styles/globals.css", "files_mutated": ["src/styles/globals.css"], "summary": "Created globals.css with @tailwind directives, CSS variables, body and html rules."}

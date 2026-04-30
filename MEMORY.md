@@ -1,1 +1,1 @@
-Created tailwind.config.ts with Config type, matching all color, fontFamily, backgroundImage, and maxWidth requirements. Created postcss.config.js exporting plugins object with tailwindcss and autoprefixer. Both files verified.
+Created src/styles/globals.css with three @tailwind directives, :root block with all CSS variables, body rule with background-color, color, font-family, font-weight, and html rule with scroll-behavior smooth.
