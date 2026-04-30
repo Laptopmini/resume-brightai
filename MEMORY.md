@@ -1,1 +1,0 @@
-Created .github/workflows/deploy.yml with all required fields: name, triggers, permissions, concurrency, build job with 6 steps, and deploy job with environment and deployment step. All syntax matches GitHub Actions workflow format.
