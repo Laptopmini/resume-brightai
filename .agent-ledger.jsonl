@@ -8,3 +8,4 @@
 {"task": "Configure Jest with jsdom environment", "files_mutated": ["jest.config.mjs"], "summary": "Set testEnvironment to jsdom, added moduleNameMapper for CSS and @ path alias, added setupFilesAfterEach with @testing-library/jest-dom."}
 {"task": "Configure Tailwind and PostCSS", "files_mutated": ["tailwind.config.ts", "postcss.config.js"], "summary": "Created tailwind.config.ts with theme extend and postcss.config.js with plugins."}
 {"task": "Create src/styles/globals.css", "files_mutated": ["src/styles/globals.css"], "summary": "Created globals.css with @tailwind directives, CSS variables, body and html rules."}
+{"task": "Create types/css.d.ts ambient declarations", "files_mutated": ["types/css.d.ts"], "summary": "Created types/css.d.ts with declare module for *.css, *.png, *.svg."}
