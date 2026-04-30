@@ -1,1 +1,1 @@
-Modified jest.config.mjs to set testEnvironment to "jsdom", added moduleNameMapper for CSS and @ alias, and added setupFilesAfterEach with @testing-library/jest-dom. Preserved existing transform, testMatch, and roots. File now exports all required changes.
+Created tailwind.config.ts with Config type, matching all color, fontFamily, backgroundImage, and maxWidth requirements. Created postcss.config.js exporting plugins object with tailwindcss and autoprefixer. Both files verified.
