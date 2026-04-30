@@ -15,3 +15,4 @@
 {"task": "Copy profile.png to public/", "files_mutated": ["public/profile.png"], "summary": "Created public/ directory, copied profile.png from repo root to public/profile.png."}
 {"task": "Create GradientButton component", "files_mutated": ["src/components/GradientButton.tsx"], "summary": "Exported default GradientButton with conditional bg-gradient-midnight/bg-gradient-accent and external link handling."}
 {"task": "Create SectionDivider component", "files_mutated": ["src/components/SectionDivider.tsx"], "summary": "Exported default SectionDivider with data-testid and bg-gradient-accent utility class."}
+{"task": "Create NavBar component", "files_mutated": ["src/components/NavBar.tsx"], "summary": "Exported default NavBar with motion.nav, navStick, nav links list, and Tailwind classes."}

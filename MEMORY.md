@@ -1,1 +1,1 @@
-Created SectionDivider component in src/components/SectionDivider.tsx. Uses only the bg-gradient-accent Tailwind utility from tailwind config, no inline styles.
+Created NavBar component in src/components/NavBar.tsx using motion.nav spreading navStick from @/lib/motion. Left anchor links to #top with brand name, right side nav links with md:flex hidden class. No inline styles — all Tailwind utilities.
