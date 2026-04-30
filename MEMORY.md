@@ -1,1 +1,1 @@
-Created ProjectCard.tsx following ExperienceCard pattern. Used content-based keys (b for bullets, tech for stack) to avoid noArrayIndexKey lint errors. Import structure matches ExperienceCard with motion and cardHover from @/lib/motion.
+Created SkillsGrid.tsx with section containing header "Top Skills" and a grid mapping skills categories to cards with items as pills. Used content-based keys (cat.category, item) to avoid noArrayIndexKey lint errors. Structure matches the spec exactly.
