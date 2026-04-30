@@ -1,0 +1,1 @@
+Installed React 19, framer-motion 12, and all dev dependencies (vite, tailwindcss v3.4, testing libraries). Added dev/build/preview scripts to package.json. Used npm install once for runtime deps and once for dev deps per the task spec.
