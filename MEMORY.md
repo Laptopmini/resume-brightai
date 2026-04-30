@@ -1,1 +1,1 @@
-Created index.html with all required elements: doctype, lang="en", meta tags (charset, viewport, description), title, Google Fonts preconnects and stylesheet, favicon link to profile.png, root div, and module script. Test uses substring grep so format (self-closing vs void element) should not matter.
+Task requires creating src/main.tsx which already exists with correct implementation: React import, createRoot from react-dom/client, App import, globals.css import, StrictMode wrapping App, mounted to #root element, no exports. No changes needed.
