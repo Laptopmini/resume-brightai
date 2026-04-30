@@ -10,3 +10,4 @@
 {"task": "Create src/styles/globals.css", "files_mutated": ["src/styles/globals.css"], "summary": "Created globals.css with @tailwind directives, CSS variables, body and html rules."}
 {"task": "Create types/css.d.ts ambient declarations", "files_mutated": ["types/css.d.ts"], "summary": "Created types/css.d.ts with declare module for *.css, *.png, *.svg."}
 {"task": "Create basePath.ts helper", "files_mutated": ["src/lib/basePath.ts"], "summary": "Exported BASE_PATH as string literal and withBasePath function handling edge cases."}
+{"task": "Create src/lib/motion.ts motion presets", "files_mutated": ["src/lib/motion.ts"], "summary": "Removed Variants type import, changed to as const assertions for all four motion preset objects."}
