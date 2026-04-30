@@ -13,3 +13,4 @@
 {"task": "Create src/lib/motion.ts motion presets", "files_mutated": ["src/lib/motion.ts"], "summary": "Removed Variants type import, changed to as const assertions for all four motion preset objects."}
 {"task": "Create src/content/resume.ts", "files_mutated": ["src/content/resume.ts"], "summary": "Exported hero, profileSummary, skills, experience, projects, education, aiCredit typed const objects from resume.md verbatim."}
 {"task": "Copy profile.png to public/", "files_mutated": ["public/profile.png"], "summary": "Created public/ directory, copied profile.png from repo root to public/profile.png."}
+{"task": "Create .github/workflows/deploy.yml", "files_mutated": [".github/workflows/deploy.yml"], "summary": "Created deploy workflow with build and deploy jobs, correct triggers, permissions, concurrency, and all specified action versions."}
