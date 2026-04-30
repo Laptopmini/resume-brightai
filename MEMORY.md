@@ -1,1 +1,1 @@
-Fixed by excluding vite.config.ts from the main tsconfig.json include. The file is now only checked via tsconfig.node.json which uses "bundler" moduleResolution (compatible with Vite's ESM exports). Previously both configs overlapped, causing NodeNext resolution to fail finding defineConfig.
+Fixed by adding "ignoreDeprecations": "6.0" to compilerOptions in tsconfig.json. The baseUrl option is deprecated in TS6 and will be removed in TS7. Adding this flag silences the error without changing behavior. No other changes needed.
