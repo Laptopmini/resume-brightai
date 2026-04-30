@@ -2,7 +2,11 @@ import { education } from "@/content/resume";
 
 export default function EducationList() {
   return (
-    <section data-testid="education-list" className="max-w-content mx-auto px-6 py-24 md:py-32">
+    <section
+      id="education"
+      data-testid="education-list"
+      className="max-w-content mx-auto px-6 py-24 md:py-32"
+    >
       <h2 className="text-3xl md:text-4xl font-bold text-paper">Education & Certifications</h2>
       <ul className="mt-10 space-y-4">
         {education.map((entry) => (
