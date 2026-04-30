@@ -1,33 +1,24 @@
-import type { ReactNode } from "react";
+import type React from "react";
 
 interface GradientButtonProps {
   href: string;
-  variant: "midnight" | "accent";
-  children: ReactNode;
+  children: React.ReactNode;
+  variant?: "midnight" | "accent";
   external?: boolean;
 }
 
-export default function GradientButton({ href, variant, children, external }: GradientButtonProps) {
-  const baseClasses =
-    "inline-flex items-center justify-center px-6 py-3 rounded-lg font-medium transition-all duration-200";
+export default function GradientButton({ href, children, variant, external }: GradientButtonProps) {
+  const gradientClass = variant === "accent" ? "bg-gradient-accent" : "bg-gradient-midnight";
 
-  const variantClasses = {
-    midnight: "bg-midnight text-white hover:bg-midnight/90 shadow-lg hover:shadow-xl",
-    accent: "bg-gradient-accent text-white hover:opacity-90 shadow-lg hover:shadow-xl",
-  };
-
-  const classes = `${baseClasses} ${variantClasses[variant]}`;
-
-  if (external) {
-    return (
-      <a href={href} className={classes} target="_blank" rel="noopener noreferrer">
-        {children}
-      </a>
-    );
-  }
+  const externalProps = external ? { target: "_blank", rel: "noreferrer noopener" } : {};
 
   return (
-    <a href={href} className={classes}>
+    <a
+      href={href}
+      data-testid="gradient-button"
+      className={`inline-flex items-center justify-center px-6 py-3 rounded-full font-medium text-paper transition-transform hover:scale-[1.02] ${gradientClass}`}
+      {...externalProps}
+    >
       {children}
     </a>
   );
