@@ -13,3 +13,4 @@
 {"task": "Create src/lib/motion.ts motion presets", "files_mutated": ["src/lib/motion.ts"], "summary": "Removed Variants type import, changed to as const assertions for all four motion preset objects."}
 {"task": "Create src/content/resume.ts", "files_mutated": ["src/content/resume.ts"], "summary": "Exported hero, profileSummary, skills, experience, projects, education, aiCredit typed const objects from resume.md verbatim."}
 {"task": "Copy profile.png to public/", "files_mutated": ["public/profile.png"], "summary": "Created public/ directory, copied profile.png from repo root to public/profile.png."}
+{"task": "Create src/components/ProfileHeader.tsx", "files_mutated": ["src/components/ProfileHeader.tsx"], "summary": "Exported default ProfileHeader with heroReveal motion, hero data, withBasePath image, and GradientButton CTAs."}

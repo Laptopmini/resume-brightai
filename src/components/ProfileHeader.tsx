@@ -8,7 +8,9 @@ export default function ProfileHeader() {
   return (
     <motion.section
       id="top"
-      {...heroReveal}
+      initial={heroReveal.initial}
+      animate={heroReveal.animate}
+      transition={heroReveal.transition}
       className="max-w-content mx-auto px-6 pt-32 pb-24 grid md:grid-cols-[1fr_280px] gap-12 items-center"
     >
       <div>
